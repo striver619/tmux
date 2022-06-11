@@ -1,0 +1,20 @@
+#!/bin/bash
+
+session=$1
+[[ $session ]] || session=pair
+
+[[ -d /tmp/tmux ]] || {
+        mkdir /tmp/tmux
+	chown .team /tmp/tmux
+	chmod 777 /tmp/tmux
+} 
+sock=/tmp/tmux/$session.sock
+
+if tmux -S /tmp/tmux/$session.sock ls 2>/dev/null; then
+	tmux -f /etc/tm.conf -S $sock attach -t $session
+#	tmux -S $sock attach -t $session
+else
+	tmux -f /etc/tm.conf -S $sock new-session -s $session "chgrp team $sock; zsh"
+#	tmux -f /etc/tm.conf -S $sock new-session -s $session
+#	tmux -S $sock new-session -s $session
+fi
