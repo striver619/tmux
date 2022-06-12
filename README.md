@@ -83,7 +83,7 @@ tm abc
 
 > account1(root) use tmux(tm abc), account2(test) also use tmux(tm abc),
 
-> when account1 is working by operating on him terminal,
+> when account1 is working by operating on his terminal,
 
 > account2 will look at account1's operating on her terminal.
 
