@@ -9,7 +9,13 @@ Tmux is the best tools for Linuxer
 yum install libevent-devel ncurses-devel zsh tmux -y
 ```
 
-## 2. set your account shell style from bash to zsh
+## 2. create your account and set shell style from bash to zsh
+
++ create your account
+
+```shell
+useradd test
+```
 
 + vim /etc/passwd
 
