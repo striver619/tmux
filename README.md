@@ -11,9 +11,9 @@ yum install libevent-devel ncurses-devel zsh tmux -y
 
 ## 2. set your account shell style from bash to zsh
 
-```shell
-# vim /etc/passwd
++ vim /etc/passwd
 
+```shell
 # before
 test:x:1001:1001::/home/test:/bin/bash
 
@@ -23,11 +23,11 @@ test:x:1001:1001::/home/test:/bin/zsh
 
 ## 3. create team group and set your account to team group
 
++ groupadd team
+
++ vim /etc/group
+
 ```shell
-groupadd team
-
-# vim /etc/group
-
 # before
 team:x:1002:
 
@@ -36,6 +36,8 @@ team:x:1002:root,test
 ```
 
 ## 4. copy tm.conf to /etc/ path
+
++ upload tm.conf to /etc/
 
 ## 5. copy tm to /usr/local/bin/ path, then change tm permission
 
@@ -85,8 +87,6 @@ tm abc
 
 > account2 will look at account1's operating on her terminal.
 
-> As you can see, Tmux is the best tools.
-
 + common shortcut keys
 
 ```
@@ -107,3 +107,7 @@ ctrl - s {  could lookup, by press shortcut key 'v' and K(up)J(down)H(left)L(rig
 ctrl - s }  by press shortcut key 'p' paste
 ctrl - s z  full screen this split window
 ```
+
+> As you can see, Tmux is the best tools for Linuxer.
+
+> Tmux is just the beginning of Linuxer, never end
