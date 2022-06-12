@@ -96,22 +96,43 @@ tm abc
 + common shortcut keys
 
 ```
-general operation
+# general operation
 
-ctrl - s c  create new window
-ctrl - s d  quit window (save window status)
-ctrl - s x  close window (no save window status)
-alt - j/k   left/right window change
-ctrl - s p  previous(last) window
-ctrl - s n  next window
+# create new desktop
+ctrl - s c  
 
-split screen
+# quit desktop (save status)
+ctrl - s d  
 
-ctrl - s %  left/right split windows
-ctrl - s "  up/down split window
-ctrl - s {  could lookup, by press shortcut key 'v' and K(up)J(down)H(left)L(right) to choose your need, by press shortcut key 'yy' to copy them
-ctrl - s }  by press shortcut key 'p' paste
-ctrl - s z  full screen this split window
+# close desktop (not save status)
+ctrl - s x  
+
+# left/right desktop change
+alt - j/k   
+
+# previous(last) desktop
+ctrl - s p  
+
+# next desktop
+ctrl - s n  
+
+# in one desktop split screen
+
+# left/right split screen
+ctrl - s %  
+
+# up/down split window
+ctrl - s "  
+
+# could lookup, by press key 'v' and K(up)J(down)H(left)L(right) to choose your need, 
+# by press key 'yy' to copy them
+ctrl - s {  
+
+# by press key 'p' paste
+ctrl - s }  
+
+# full screen this split window
+ctrl - s z  
 ```
 
 > As you can see, Tmux is the best tools for Linuxer.
