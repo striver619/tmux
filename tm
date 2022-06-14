@@ -6,7 +6,7 @@ session=$1
 [[ -d /tmp/tmux ]] || {
         mkdir /tmp/tmux
 	# before you should create team group
-	chown .team /tmp/tmux
+	chown -R .team /tmp/tmux
 	# permission 777 means all account could team work
 	chmod 777 /tmp/tmux
 } 
