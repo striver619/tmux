@@ -29,7 +29,11 @@ test:x:1001:1001::/home/test:/bin/zsh
 
 ## 3. create team group and set your account to team group
 
-+ groupadd team
++ add group team
+
+```shell
+groupadd team
+```
 
 + vim /etc/group
 
