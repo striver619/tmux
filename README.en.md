@@ -69,7 +69,13 @@ chmod 777 /usr/loacl/bin/tm
 source $HOME/.zshrc
 ```
 
-+ show the effect
++ then, to get greate experience, we suggest you reboot your machine
+
+```shell
+reboot
+```
+
++ after reboot you will look at the effect
 
 ```shell
 test@openEuler ~ % 
