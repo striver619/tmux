@@ -75,7 +75,9 @@ source $HOME/.zshrc
 reboot
 ```
 
-+ after reboot you will look at the effect
+by the way, if you do not want to reboot your machine, we suggest you can relogin your terminal
+
++ after reboot/relogin you will look at the effect
 
 ```shell
 test@openEuler ~ % 
@@ -137,6 +139,7 @@ ctrl - s "
 # could lookup, by press key 'v' and K(up)J(down)H(left)L(right) to choose your need, 
 # by press key 'yy' to copy them
 ctrl - s {  
+# use this shortcuts, you can also move your mouse to choose you need
 
 # by press key 'p' paste
 ctrl - s }  
