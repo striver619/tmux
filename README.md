@@ -75,7 +75,9 @@ source $HOME/.zshrc
 reboot
 ```
 
-+ after reboot you will look at the effect
+by the way, if you do not want to reboot your machine, we suggest you can relogin your terminal
+
++ after reboot/relogin you will look at the effect
 
 ```shell
 test@openEuler ~ % 
