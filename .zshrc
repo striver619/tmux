@@ -30,7 +30,7 @@
 # Brown 0;33	        Yellow 1;33
 # Gray 0;37     	Light White 1;37
 
-
-#PROMPT='%{[1;33m%}%n@%{[1;34m%}%M %{[1;37m%}%.%% '
-PROMPT='%{[1;33m%}%n@%{[1;34m%}%M %{[0;37m%}%.%% '
+# note: '^[' need using 'ctrl+v+esc' in vim editer 
+#PROMPT='%{^[[1;33m%}%n@%{^[[1;34m%}%M %{^[[1;37m%}%.%% '
+PROMPT='%{^[[1;33m%}%n@%{^[[1;34m%}%M %{^[[0;37m%}%.%% '
 
