@@ -28,9 +28,9 @@
 # Red 0;31	        Light Red 1;31
 # Purple 0;35	        Light Purple 1;35
 # Brown 0;33	        Yellow 1;33
-# Light Gray 1;37	White 1;37
+# Gray 0;37     	Light White 1;37
 
 
 #PROMPT='%{[1;33m%}%n@%{[1;34m%}%M %{[1;37m%}%.%% '
-PROMPT='%{[1;33m%}%n@%{[1;34m%}%M %{[1;37m%}%.%% %{[1;37m%}'
+PROMPT='%{[1;33m%}%n@%{[1;34m%}%M %{[0;37m%}%.%% '
 
