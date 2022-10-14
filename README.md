@@ -146,6 +146,9 @@ ctrl - s }
 
 # full screen this split window
 ctrl - s z  
+
+# rename screen window's name
+ctrl - s ,  
 ```
 
 > As you can see, Tmux is the best tools for Linuxer.
